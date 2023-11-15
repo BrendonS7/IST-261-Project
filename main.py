@@ -69,7 +69,7 @@ def main():
             print("Anime " + title + "does not exist.")
     scores = [a.score for a in animes]
     titles = [a.title for a in animes]
-    #plot(scores, titles)
+    plot(scores, titles)
 
 
 
